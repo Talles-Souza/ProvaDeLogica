@@ -2,14 +2,46 @@
 {
     public class Calculo
     {
-        public double judrosDia = 0.3;
+        public double jurosDia = 0.3;
         public double multaFixa = 2.00;
 
 
-        public double Calcular()
+        public double Calcular(double valorBoleto, DateTime vencimento, DateTime pagamento)
         {
+            var verif = VerificarDias(vencimento, pagamento);
 
-            return 0;
+            var result = VerificaFeriado(vencimento);
+            var result2 = VerificaFeriado(vencimento.AddDays(1));
+            var verifcarFinalSemana2 = VerificaFinalDeSemana(vencimento.AddDays(1));
+            var verifcarFinalSemana = VerificaFinalDeSemana(vencimento);
+            if (result == true || verifcarFinalSemana == true)
+            {
+                var pag = vencimento - pagamento;
+                var dia = (int)vencimento.DayOfWeek;
+                if (dia == 6 && pag.Days <= 2)
+                {
+                    return valorBoleto;
+                }
+                else if (dia != 6 && pag.Days >= 2)
+                {
+                    return valorBoleto + multaFixa + (jurosDia * pag.Days);
+                }
+                else if (result == true && result2 == false && verifcarFinalSemana2 == false)
+                {
+                    return valorBoleto;
+                }
+                else if(result == true && pag.Days >= 2)
+                {
+                    return valorBoleto + multaFixa + (jurosDia * pag.Days);
+                }
+            }else if (result == false || verifcarFinalSemana == false && verif >= 1)
+            {
+                return valorBoleto + multaFixa + (jurosDia * verif);
+            }
+   
+                return valorBoleto; 
+            
+
         }
         public int VerificarDias(DateTime vencimento, DateTime pagamento)
         {
@@ -51,6 +83,10 @@
 
         public bool VerificaFinalDeSemana(DateTime date)
         {
+            if ((int)date.DayOfWeek == 6 || (int)date.DayOfWeek == 7)
+            {
+                return true;
+            }
             return false;
         }
     }

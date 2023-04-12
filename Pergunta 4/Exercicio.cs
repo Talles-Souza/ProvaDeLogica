@@ -34,8 +34,8 @@ namespace Pergunta_4
                     Console.WriteLine();
                     //Console.WriteLine(resultdays.VerificarDias(dataVencimento,dataPagamento));
                     // bool confirma = resultdays.VerificaFeriado(dataPagamento);
-               
-                    
+                    Console.WriteLine((int)dataVencimento.DayOfWeek);
+
                 }
                 else
                 {
