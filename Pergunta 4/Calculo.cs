@@ -2,45 +2,56 @@
 {
     public class Calculo
     {
-        public double jurosDia = 0.3;
+        public double jurosDia = 0.03;
         public double multaFixa = 2.00;
 
 
         public double Calcular(double valorBoleto, DateTime vencimento, DateTime pagamento)
         {
-            var verif = VerificarDias(vencimento, pagamento);
+            var verif = VerificarDias(pagamento, vencimento);
 
             var result = VerificaFeriado(vencimento);
             var result2 = VerificaFeriado(vencimento.AddDays(1));
             var verifcarFinalSemana2 = VerificaFinalDeSemana(vencimento.AddDays(1));
             var verifcarFinalSemana = VerificaFinalDeSemana(vencimento);
+            var dia = (int)vencimento.DayOfWeek;
+            var pag = pagamento - vencimento;
+
             if (result == true || verifcarFinalSemana == true)
             {
-                var pag = vencimento - pagamento;
-                var dia = (int)vencimento.DayOfWeek;
+
                 if (dia == 6 && pag.Days <= 2)
+                {
+                    return valorBoleto;
+                }
+                else if (result == true && dia == 5 && verifcarFinalSemana2 == true && pag.Days <= 3)
                 {
                     return valorBoleto;
                 }
                 else if (dia != 6 && pag.Days >= 2)
                 {
-                    return valorBoleto + multaFixa + (jurosDia * pag.Days);
+                    return valorBoleto + multaFixa + (jurosDia * (pag.Days));
                 }
                 else if (result == true && result2 == false && verifcarFinalSemana2 == false)
                 {
                     return valorBoleto;
                 }
-                else if(result == true && pag.Days >= 2)
+                else if (result == true && pag.Days >= 2)
                 {
-                    return valorBoleto + multaFixa + (jurosDia * pag.Days);
+                    return valorBoleto + multaFixa + (jurosDia * (pag.Days));
                 }
-            }else if (result == false || verifcarFinalSemana == false && verif >= 1)
-            {
-                return valorBoleto + multaFixa + (jurosDia * verif);
             }
-   
-                return valorBoleto; 
-            
+            else if (result == false && verifcarFinalSemana == false && verif >= 1)
+            {
+                return valorBoleto + multaFixa + (jurosDia * (verif));
+            }
+            else if (verifcarFinalSemana == true && verif < 2)
+            {
+                return valorBoleto;
+            }
+
+            return valorBoleto;
+
 
         }
         public int VerificarDias(DateTime vencimento, DateTime pagamento)
@@ -83,7 +94,8 @@
 
         public bool VerificaFinalDeSemana(DateTime date)
         {
-            if ((int)date.DayOfWeek == 6 || (int)date.DayOfWeek == 7)
+            var data = (int)date.DayOfWeek;
+            if (data == 6 || data == 0)
             {
                 return true;
             }
