@@ -1,0 +1,15 @@
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 4\bin\Debug\net6.0\Pergunta 4.exe
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 4\bin\Debug\net6.0\Pergunta 4.deps.json
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 4\bin\Debug\net6.0\Pergunta 4.runtimeconfig.json
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 4\bin\Debug\net6.0\Pergunta 4.dll
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 4\bin\Debug\net6.0\Pergunta 4.pdb
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 4\obj\Debug\net6.0\Pergunta 4.csproj.AssemblyReference.cache
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 4\obj\Debug\net6.0\Pergunta 4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 4\obj\Debug\net6.0\Pergunta 4.AssemblyInfoInputs.cache
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 4\obj\Debug\net6.0\Pergunta 4.AssemblyInfo.cs
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 4\obj\Debug\net6.0\Pergunta 4.csproj.CoreCompileInputs.cache
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 4\obj\Debug\net6.0\Pergunta 4.dll
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 4\obj\Debug\net6.0\refint\Pergunta 4.dll
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 4\obj\Debug\net6.0\Pergunta 4.pdb
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 4\obj\Debug\net6.0\Pergunta 4.genruntimeconfig.cache
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 4\obj\Debug\net6.0\ref\Pergunta 4.dll
