@@ -1,0 +1,30 @@
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\Pergunta 1\Pergunta 1\bin\Debug\net6.0\Pergunta 1.exe
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\Pergunta 1\Pergunta 1\bin\Debug\net6.0\Pergunta 1.deps.json
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\Pergunta 1\Pergunta 1\bin\Debug\net6.0\Pergunta 1.runtimeconfig.json
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\Pergunta 1\Pergunta 1\bin\Debug\net6.0\Pergunta 1.dll
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\Pergunta 1\Pergunta 1\bin\Debug\net6.0\Pergunta 1.pdb
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\Pergunta 1\Pergunta 1\obj\Debug\net6.0\Pergunta 1.csproj.AssemblyReference.cache
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\Pergunta 1\Pergunta 1\obj\Debug\net6.0\Pergunta 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\Pergunta 1\Pergunta 1\obj\Debug\net6.0\Pergunta 1.AssemblyInfoInputs.cache
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\Pergunta 1\Pergunta 1\obj\Debug\net6.0\Pergunta 1.AssemblyInfo.cs
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\Pergunta 1\Pergunta 1\obj\Debug\net6.0\Pergunta 1.csproj.CoreCompileInputs.cache
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\Pergunta 1\Pergunta 1\obj\Debug\net6.0\Pergunta 1.dll
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\Pergunta 1\Pergunta 1\obj\Debug\net6.0\refint\Pergunta 1.dll
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\Pergunta 1\Pergunta 1\obj\Debug\net6.0\Pergunta 1.pdb
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\Pergunta 1\Pergunta 1\obj\Debug\net6.0\Pergunta 1.genruntimeconfig.cache
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\Pergunta 1\Pergunta 1\obj\Debug\net6.0\ref\Pergunta 1.dll
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 1\bin\Debug\net6.0\Pergunta 1.exe
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 1\bin\Debug\net6.0\Pergunta 1.deps.json
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 1\bin\Debug\net6.0\Pergunta 1.runtimeconfig.json
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 1\bin\Debug\net6.0\Pergunta 1.dll
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 1\bin\Debug\net6.0\Pergunta 1.pdb
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 1\obj\Debug\net6.0\Pergunta 1.csproj.AssemblyReference.cache
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 1\obj\Debug\net6.0\Pergunta 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 1\obj\Debug\net6.0\Pergunta 1.AssemblyInfoInputs.cache
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 1\obj\Debug\net6.0\Pergunta 1.AssemblyInfo.cs
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 1\obj\Debug\net6.0\Pergunta 1.csproj.CoreCompileInputs.cache
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 1\obj\Debug\net6.0\Pergunta 1.dll
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 1\obj\Debug\net6.0\refint\Pergunta 1.dll
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 1\obj\Debug\net6.0\Pergunta 1.pdb
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 1\obj\Debug\net6.0\Pergunta 1.genruntimeconfig.cache
+C:\Users\talle\OneDrive\Área de Trabalho\Prova - Lógica de Programação\ProvaDeLógica\Pergunta 1\obj\Debug\net6.0\ref\Pergunta 1.dll
