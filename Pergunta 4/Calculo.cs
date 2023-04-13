@@ -4,7 +4,8 @@
     {
         public double jurosDia = 0.03;
         public double multaFixa = 2.00;
-
+        public double valueJuros;
+        public double valueMulta;
 
         public double Calcular(double valorBoleto, DateTime vencimento, DateTime pagamento)
         {
@@ -22,34 +23,50 @@
 
                 if (dia == 6 && pag.Days <= 2)
                 {
+                    valueJuros = 0;
+                    valueMulta = 0;
                     return valorBoleto;
                 }
                 else if (result == true && dia == 5 && verifcarFinalSemana2 == true && pag.Days <= 3)
                 {
+                    valueJuros = 0;
+                    valueMulta = 0;
                     return valorBoleto;
                 }
                 else if (dia != 6 && pag.Days >= 2)
                 {
+                    valueJuros = jurosDia * pag.Days;
+                    valueMulta = multaFixa;
                     return valorBoleto + multaFixa + (jurosDia * (pag.Days));
                 }
                 else if (result == true && result2 == false && verifcarFinalSemana2 == false)
                 {
+                    valueJuros = 0;
+                    valueMulta = 0;
                     return valorBoleto;
                 }
                 else if (result == true && pag.Days >= 2)
                 {
+                    valueJuros = jurosDia * pag.Days;
+                    valueMulta = multaFixa;
                     return valorBoleto + multaFixa + (jurosDia * (pag.Days));
                 }
             }
             else if (result == false && verifcarFinalSemana == false && verif >= 1)
             {
+                valueJuros = jurosDia * pag.Days;
+                valueMulta = multaFixa;
                 return valorBoleto + multaFixa + (jurosDia * (verif));
             }
             else if (verifcarFinalSemana == true && verif < 2)
             {
+                valueJuros = 0;
+                valueMulta = 0;
                 return valorBoleto;
             }
 
+            valueJuros = 0;
+            valueMulta = 0;
             return valorBoleto;
 
 
