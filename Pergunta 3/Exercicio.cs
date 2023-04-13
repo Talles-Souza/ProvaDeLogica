@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Pergunta_3
+﻿namespace Pergunta_3
 {
     public class Exercicio
     {
