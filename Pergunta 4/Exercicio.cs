@@ -55,6 +55,7 @@
                     Console.WriteLine("Formato inválido: " + dateUser);
                 }
             }
+            Console.Clear();
             Console.WriteLine("Obrigado e volte sempre");
         }
     }
